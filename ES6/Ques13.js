@@ -5,7 +5,9 @@ const person = {
   ocuupation: "student"
 };
 
-const changeOccupation = (person, newOccupation) => {};
+const changeOccupation = (person, newOccupation) => {
+  person.ocuupation = newOccupation;
+};
 
 console.log(person);
 
