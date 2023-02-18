@@ -15,7 +15,7 @@ const getData = (person) => {
     address: { city }
   } = person;
   console.log(name);
-  console.log(city);
+  console.log(address);
 };
 
 const person = {
