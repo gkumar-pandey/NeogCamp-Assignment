@@ -8,9 +8,8 @@ const employeeData = [
 
 // Your code here
 
-// const greetEmployeeMessages = employeeData.map(
-//   ({ name }) => `Hi ${name} we are glad to ahve you as a marketing`
-// );
+const greetEmployeeMessages = employeeData.map(
+  ({ name }) => `Hi ${name} we are glad to ahve you as a marketing`
+);
 
-// console.log(greetEmployeeMessages);
-// Output: ['Hi ram we are glad to have you as a marketing', 'Hi Radha we are glad to have you as a SDE', 'Hi shyam we are glad to have you as a finance professional']
+console.log(greetEmployeeMessages);
