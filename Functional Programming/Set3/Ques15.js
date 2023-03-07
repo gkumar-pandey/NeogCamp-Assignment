@@ -4,9 +4,10 @@ const numbers = [10, 5, 8, 3, 6];
 // Your code here
 
 const getMinimumNumber = (numbers) =>
-  numbers.reduce((acc, currValue) => {
-    return;
-  });
+  numbers.reduce(
+    (acc, currValue) => (acc < currValue ? acc : currValue),
+    numbers[0]
+  );
 
 console.log(getMinimumNumber(numbers));
 // Output: 3
