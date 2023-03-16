@@ -3,11 +3,11 @@
 const numbers = [12, 23, 4, 2, 11, 21];
 // Your code here
 
-const sumOfEvenNumbers = (numbers) => {
-  return numbers.reduce((acc, currValue) => {
-    return acc + (currValue % 2 == 0 ? currValue : 0);
-  }, 0);
-};
+const sumOfEvenNumbers = (numbers) =>
+  numbers.reduce(
+    (acc, currValue) => (currValue % 2 == 0 ? acc + currValue : acc + 0),
+    0
+  );
 
 console.log(sumOfEvenNumbers(numbers));
 // Output: 18
