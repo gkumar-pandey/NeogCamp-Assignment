@@ -20,6 +20,7 @@ const Q2 = () => {
   useEffect(() => {
     fetchData();
   }, []);
+
   return (
     <div>
       {todosData.map((todo) => (

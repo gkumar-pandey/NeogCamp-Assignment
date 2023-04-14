@@ -69,8 +69,8 @@ const EmployeeListComp = () => {
           <li
             key={idx}
             style={{
-              color: level == 2 && "orange",
-              border: designation == "President" && "1px solid green"
+              color: level === 2 && "orange",
+              border: designation === "Presiden" && "1px solid green"
             }}
           >
             name:{name}, level:{level}, dept:{dept}, designation:{designation},

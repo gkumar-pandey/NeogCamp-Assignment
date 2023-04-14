@@ -19,9 +19,11 @@ const Q8 = () => {
   useEffect(() => {
     fetchData();
   }, []);
+
   const updateNameHandler = (name) => {
     setUser((pre) => ({ ...pre, name: name }));
   };
+
   return (
     <div>
       <h1>Profile</h1>

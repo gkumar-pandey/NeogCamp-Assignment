@@ -8,6 +8,8 @@ import Q5 from "./Compoents/Q5/Q5";
 import Q6 from "./Compoents/Q6/Q6";
 import Q7 from "./Compoents/Q7/Q7";
 import Q8 from "./Compoents/Q8/Q8";
+import Q9 from "./Compoents/Q9/Q9";
+import Q10 from "./Compoents/Q10/Q10";
 
 function App() {
   return (
@@ -19,7 +21,9 @@ function App() {
       {/* <Q5 /> */}
       {/* <Q6 /> */}
       {/* <Q7 /> */}
-      <Q8 />
+      {/* <Q8 /> */}
+      {/* <Q9 /> */}
+      <Q10 />
     </div>
   );
 }
