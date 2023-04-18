@@ -1,0 +1,124 @@
+/* Question 1 CSS */
+
+#question1 {
+  font-family: serif;
+}
+
+.heading {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.paragraph {
+  font-size: 20px;
+  color: #666;
+  line-height: 1.5;
+}
+
+/* Question 2 CSS */
+
+.list li {
+  list-style: none;
+  font-size: 18px;
+  color: #333;
+  padding: 10px;
+  border: 1px solid #cccc;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+/* Question 3 CSS */
+
+#question3 .list li {
+  list-style: none;
+  font-size: 18px;
+  color: #333;
+  font-weight: 800;
+  padding: 15px;
+  border: 2px dashed red;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+/* Question 4 CSS */
+
+#question4 input {
+  border: 1px solid #cccc;
+  padding: 10px;
+  font-size: 18px;
+}
+
+#question4 button {
+  background-color: #333;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 20px;
+  margin-left: 10px;
+}
+
+/* Question 5 CSS */
+#question5 .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  width: fit-content;
+  background-color: #fff;
+  margin: 20px;
+  padding: 0 5px;
+  padding-bottom: 5px;
+}
+
+#question5 .card .card-text h3 {
+  font-size: 24px;
+  color: #333;
+  margin: 10px;
+}
+
+#question5 .card .card-text p {
+  font-size: 18px;
+  color: #666;
+  margin: 10px;
+}
+
+/* Question 6 CSS */
+
+#question6 .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  width: fit-content;
+  padding: 0 5px;
+  margin: 20px;
+}
+
+#question6 .card .heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px;
+  color: #333;
+}
+
+#question6 .card .card-btn {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+/* Question 7 CSS */
+
+.search-bar input {
+  width: 400px;
+  height: 40px;
+  border: 1px solid #cccc;
+  margin: 10px 0;
+  padding: 0 20px;
+  background-color: #fff;
+  color: #999;
+  font-size: 16px;
+  font-family: sans;
+  font-weight: 400;
+}
